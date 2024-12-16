@@ -45,7 +45,7 @@
 
             bindings = <
 &kp ESCAPE        &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7     &kp N8     &kp N9            &kp N0             &kp EQUAL
-&kp RIGHT_SHIFT   &kp LEFT_ALT    &trans        &kp LEFT_SHIFT  &kp TAB       &trans       &kp LEFT      &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp RIGHT_SHIFT   &kp LEFT_ALT    &kp DELETE    &kp LEFT_SHIFT  &kp TAB       &trans       &kp LEFT      &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &kp LEFT_CONTROL  &studio_unlock  &trans        &trans          &trans        &trans       &trans        &trans     &trans     &trans            &trans             &trans
                                                 &kp LGUI        &trans        &kp SPACE    &kp SPACE     &trans     &kp RALT
             >;
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1            &kp F2  &kp F3  &kp F4    &kp F5  &kp F7              &kp F8     &kp F9    &kp F10   &kp F11    &kp F12    &kp BSPC
-&kp LEFT_SHIFT    &trans  &trans  &trans    &trans  &kp LC(LEFT_WIN)    &kp MINUS  &kp HOME  &kp UP    &kp END    &kp ENTER  &kp ENTER
-&kp LEFT_CONTROL  &trans  &trans  &trans    &trans  &trans              &kp UNDER  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PIPE   &kp LS(LEFT_CONTROL)
-                                  &kp LGUI  &trans  &kp LEFT_ALT        &kp RET    &trans    &kp RALT
+&kp F1            &kp F1   &kp F2   &kp F3    &kp F4  &kp F5              &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &kp BSPC
+&kp LEFT_SHIFT    &kp F11  &kp F12  &trans    &trans  &kp LC(LEFT_WIN)    &kp MINUS  &kp HOME  &kp UP    &kp END    &kp ENTER  &kp ENTER
+&kp LEFT_CONTROL  &trans   &trans   &trans    &trans  &trans              &kp UNDER  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PIPE   &kp LS(LEFT_CONTROL)
+                                    &kp LGUI  &trans  &kp LEFT_ALT        &kp RET    &trans    &kp RALT
             >;
         };
 
